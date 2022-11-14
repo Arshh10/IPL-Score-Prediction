@@ -7,13 +7,13 @@
         
     <script src="https://kit.fontawesome.com/f13b0bc903.js" crossorigin="anonymous"></script>
     </head>
-  <body>
+  <body bgcolor="yellow">
       <h1>IPL Batting Score Predictor 🏆</h1>
       <div class = "register">  
       <form id="register" action="{{ url_for('predict') }}"  method="post">
           
           <label> Batting Team: </label><br>
-          <select name="batting-team" style="font-size:10pt;">
+          <select name="batting-team" style="font-size:20pt;">
             <!__The below mentioned names are the Indian teams that will be playing for IPL __>
                         <option value="none">--- Select a Batting team ---</option>
                         <option value="Mumbai Indians">Mumbai Indians</option>
